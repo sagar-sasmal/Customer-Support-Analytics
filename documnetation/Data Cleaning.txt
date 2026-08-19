@@ -1,0 +1,13 @@
+Data Cleaning
+
+1. I loaded the raw CSV into Pandas and started by checking the basic structure of the data.
+
+2. There were 8,469 rows and the dataset was a single table. I checked the column names, data types, missing values and duplicates before making any changes.
+
+3. One thing I noticed was that CSAT wasn't being read as a proper numeric column. Some values had formatting characters, so I cleaned those and converted the column to numeric.
+
+4. I also checked Ticket ID. There were no missing or duplicate IDs, so I didn't need to create or replace anything.
+
+5. For missing CSAT values, I kept them as blank rather than changing them to 0. A missing rating means the customer didn't provide a rating; it shouldn't be treated as a score of zero.
+
+6. After cleaning, I did a few basic checks to make sure the important numbers still made sense before moving the file into MySQL.
