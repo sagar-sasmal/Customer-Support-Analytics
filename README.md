@@ -96,6 +96,8 @@ The Power BI report contains three pages.
 
 ### Page 1 — Customer Support Overview
 
+![Customer Support Overview](images/dashboard_1.png)
+
 Provides a high-level view of:
 
 * Total tickets
@@ -106,6 +108,8 @@ Provides a high-level view of:
 
 ### Page 2 — Support Performance
 
+![Support Performance](images/dashboard_2.png)
+
 Focuses on:
 
 * Ticket type performance
@@ -114,6 +118,8 @@ Focuses on:
 * CSAT by priority
 
 ### Page 3 — Customer Insights
+
+![Customer Insights](images/dashboard_3.png)
 
 Focuses on:
 
@@ -180,21 +186,6 @@ Based on the analysis, I would consider the following areas for further investig
 
 These recommendations are based on patterns in the dataset and should be investigated further before making operational changes.
 
-## Power BI Dashboard
-
-The Power BI report contains three pages covering overall support performance, ticket/channel analysis, and customer insights.
-
-### Page 1 — Customer Support Overview
-
-![Customer Support Overview](images/dashboard_1.png)
-
-### Page 2 — Support Performance
-
-![Support Performance](images/dashboard_2.png)
-
-### Page 3 — Customer Insights
-
-![Customer Insights](images/dashboard_3.png)
 ## Limitations
 
 There are several limitations to this dataset:
